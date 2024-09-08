@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.cdnfonts.com/css/charles-wright" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lcd" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+                
+                    
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/charles-wright'); 
+        @import url('https://fonts.cdnfonts.com/css/lcd');
+        @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+        h1, h2, h3, h4, h5, h6, a, table, textarea, text, p, b, em, i, strong, audio{
+            font-family: 'Minecraft', monospace;
+                                                
+        }
+        sup {
+            vertical-align: super;
+            font-size: small;
+        }
+        .n{
+            font-family: "Minecraft",monospace;
+        }
+        label, input, option, select, textarea, button{
+            font-family: "Minecraft",monospace;
+            font-size: 50px
+        }
+    </style>
+    <nav>
+        <a href="home.html"><b>Home</b></a>
+        <a href="about.html">About this page</a>
+        <a href="buymc.html">Buy Minecraft</a>
+        <a href="contact.html">Submit more reasons</a>
+        <a href="chatgptessay.html">For parents</a>
+    </nav>
+</head>
+<body>
+<form>
+    <label>Submit more reasons here!</label><br>
+
+    <label for="fname">Name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+
+    <label for="age">Age:</label><br>
+    <select name="age" id="age">
+        <option value="less"><10</option>
+        <option value="10">10-15</option>
+        <option value="16">16-20</option>
+        <option value="20">>20</option>
+      </select><br>
+    
+    <label for="edt">Edition:</label><br>
+
+    <input type="radio" id="je" name="edt" value="JE">
+    <label for="je">Java Edition</label><br>
+    
+    <input type="radio" id="be" name="edt" value="BE">
+    <label for="be">Bedrock Edition/Pocket Edition</label><br>
+    
+    <input type="radio" id="ee" name="edt" value="EE">
+    <label for="ee">Education Edition</label><br>
+
+    <label for="r">Reason:</label><br>
+    <textarea></textarea><br>
+
+    <button onclick="alert('uwu')" type="submit" value="submit">Reset</button><br>
+    <button type="reset" value="reset">Submit</button><br>
+</form>
+</body>
+</html>
